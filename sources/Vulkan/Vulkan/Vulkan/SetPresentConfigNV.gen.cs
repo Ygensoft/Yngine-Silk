@@ -21,7 +21,7 @@ public unsafe partial struct SetPresentConfigNV
             "VK_NV_present_metering+VK_VERSION_1_1",
         ]
     )]
-    public StructureType SType = StructureType.VK_STRUCTURE_TYPE_SET_PRESENT_CONFIG_NV;
+    public StructureType SType = StructureType.SetPresentConfigNV;
 
     [NativeName("pNext")]
     [SupportedApiProfile(

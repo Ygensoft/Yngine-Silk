@@ -21,8 +21,7 @@ public unsafe partial struct PhysicalDevicePresentMeteringFeaturesNV
             "VK_NV_present_metering+VK_VERSION_1_1",
         ]
     )]
-    public StructureType SType =
-        StructureType.VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_PRESENT_METERING_FEATURES_NV;
+    public StructureType SType = StructureType.PhysicalDevicePresentMeteringFeaturesNV;
 
     [NativeName("pNext")]
     [SupportedApiProfile(
